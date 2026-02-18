@@ -1,0 +1,8 @@
+streamlit
+pandas
+scikit-learn
+plotly
+streamlit-plotly-events
+umap-learn
+openpyxl
+rdkit
