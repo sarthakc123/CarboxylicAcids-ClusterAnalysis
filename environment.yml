@@ -1,17 +1,13 @@
-# Conda environment for Streamlit Community Cloud (RDKit from conda-forge)
 name: streamlit-app
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - python=3.11
-  - rdkit
-  - streamlit
+  - python=3.12
+  - pip
+  - numpy
   - pandas
   - scikit-learn
-  - plotly
-  - openpyxl
-  - umap-learn
-  - pip
+  - rdkit
   - pip:
-    - streamlit-plotly-events
+      - plotly
+      - streamlit-plotly-events
